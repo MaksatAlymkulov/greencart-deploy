@@ -6,12 +6,25 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+*.pid
 
+# Dependency directories
 node_modules
+jspm_packages/
+
+# Build output
 dist
 dist-ssr
+build
+
+# Environment files
+.env
+.env.*
 *.local
 server/.env
+
+# Test coverage
+coverage/
 
 # Editor directories and files
 .vscode/*
@@ -23,4 +36,7 @@ server/.env
 *.njsproj
 *.sln
 *.sw?
-git
+
+# OS junk
+Thumbs.db
+ehthumbs.db
